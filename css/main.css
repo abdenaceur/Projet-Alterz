@@ -1,0 +1,251 @@
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/* font pour le texte*/
+h1,h2,h3,h4,h5,h6,p,.header,.navbar {
+	font-family: 'Roboto Condensed', sans-serif;
+}
+/* coulor pour des liens*/
+a:link, a:active, a:visited {
+	color: #ADADAD;
+	text-decoration: none;
+}
+a:hover {
+	color: #0A4F5A;
+	text-decoration: none;
+}
+footer a,
+header a {
+	margin-left: 10px;
+}
+body {
+	background-color: #f2f2f2;
+	margin: 0;
+	padding: 0;
+}
+/* predefini, elements pour dispositifs mobiles invisible*/
+.smartphone-visible {
+	display: block;
+}
+/* predefini, elements pour dispositifs de bureau visible*/
+.desktop-visible {
+	display: none;
+}
+/* propietés pour le container*/
+.container {
+	background-color: #ffffff;
+}
+/* propietés pour le header*/
+.header {
+	background-color: #ffffff;
+	padding-top: 20px;
+	padding-bottom: 10px;
+}
+.header_section {
+	background-color: #ffffff;
+	border-top: 1px #f2f2f2 solid;
+	border-bottom: 1px #f2f2f2 solid;
+	padding-bottom: 10px;
+}
+.header_section a {
+	margin: 10px 10px 10px 10px;
+}
+/* propietés pour le carousel*/
+.container.carousel.slide {
+	padding-left: 0;
+	padding-right: 0;
+}
+/* propietés pour le navbar*/
+.navbar {
+	margin-bottom: 0;
+	border: none;
+	border-radius: 0;
+	box-shadow: none;
+	font-style: normal;
+	font-size: 1.5em;
+}
+.navbar-default {
+	background: #ffffff;
+}
+.navbar_base {
+	height: 10px
+}
+/* propietés pour le footer*/
+footer {
+	border-top: 1px #f2f2f2 solid;
+	padding: 30px 30px
+}
+/* propietés pour des banniers de laccueil*/
+.accueil_bannier {
+	height: 200px;
+	padding-bottom: 20px;
+	background-repeat: no-repeat;
+	min-height: 100%;
+	top: 0;
+	left: 0;
+	background-size: auto 100%;
+	transition: background-size 2s ease-in;
+	-moz-transition: background-size .2s ease-in;
+	-ms-transition: background-size .2s ease-in;
+	-o-transition: background-size .2s ease-in;
+	-webkit-transition: background-size .2s ease-in;
+}
+.accueil_bannier:hover {
+	background-size: auto 105%;
+	transition: background-size .2s ease-in;
+	-moz-transition: background-size .2s ease-in;
+	-ms-transition: background-size .2s ease-in;
+	-o-transition: background-size .2s ease-in;
+	-webkit-transition: background-size .2s ease-in;
+}
+.accueil_bannier h2 {
+	margin-top: 80px;
+	text-shadow: 1px 1px 5px black;
+}
+.accueil_bannier_img_1 {
+	background-color: #000;
+	color: white;
+	background-image: url('../img/accueil_bann_01.jpg');
+}
+.accueil_bannier_img_2 {
+	background-color: #3f3d3f;
+	color: white;
+	background-image: url('../img/accueil_bann_02.jpg');
+}
+.accueil_bannier_img_3 {
+	background-color: #000;
+	color: white;
+	background-image: url('../img/accueil_bann_03.jpg');
+}
+.accueil_bannier_img_4 {
+	background-color: #000;
+	color: white;
+	background-image: url('../img/accueil_bann_04.jpg');
+}
+/* propietés pour le contenu general du site*/
+.contenu_interne {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+/* propietés pour le magazine*/
+.magazine {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	height: 100%;
+}
+.magazine img {
+	border: 1px #f2f2f2 solid;
+}
+.magazine a img:hover {
+	border: 1px #999999 solid;
+}
+.magazine a:link {
+	color: #ffffff;
+}
+.magazine h1 {
+	margin-top: 0px
+}
+.form_quantite {
+	width: 50px;
+}
+.produit {
+	color: #ffffff;
+	background-color: #000000;
+	background-image: url('../img/bg-produit.jpg');
+	background-repeat: no-repeat;
+	padding-bottom: 20px;
+}
+/* propietés pour generer des masq dans produit.html*/
+.clipping-frame {
+	border: 5px solid #fff;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .15);
+	overflow: hidden;
+	display: block;
+	width: 210px;
+	height: 210px;
+	margin: 20px auto;
+}
+.clipping-frame img {
+	-webkit-transition: .5s;
+	transition: .5s;
+	margin-left: 0px;
+}
+.clipping-frame img:hover {
+	margin-left: -20px;
+	cursor: pointer;
+}
+/* ===================================================================
+Media Queries Aditionels http://scotch.io/quick-tips/css3-quick-tips/default-sizes-for-twitter-bootstraps-media-queries
+======================================================================*/
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+
+@media only screen and (min-width: 320px) {
+	.desktop-visible {
+		display: none;
+	}
+	.smartphone-visible {
+		display: block;
+	}
+}
+/* Extra Small Devices, Phones */
+
+@media only screen and (min-width: 480px) {
+	.desktop-visible {
+		display: none;
+	}
+	.smartphone-visible {
+		display: block;
+	}
+}
+/* Small Devices, Tablets */
+
+@media only screen and (min-width: 768px) {
+	.desktop-visible {
+		display: block;
+	}
+	.smartphone-visible {
+		display: none;
+	}
+	.navbar-nav {
+		margin: 0 auto;
+		display: table;
+		table-layout: fixed;
+		float: none;
+	}
+}
+/* Medium Devices, Desktops */
+
+@media only screen and (min-width: 992px) {
+	.desktop-visible {
+		display: block;
+	}
+	.smartphone-visible {
+		display: none;
+	}
+	.navbar-nav {
+		margin: 0 auto;
+		display: table;
+		table-layout: fixed;
+		float: none;
+	}
+}
+/* Large Devices, Wide Screens */
+
+@media only screen and (min-width: 1200px) {
+	.desktop-visible {
+		display: block;
+	}
+	.smartphone-visible {
+		display: none;
+	}
+	.navbar-nav {
+		margin: 0 auto;
+		display: table;
+		table-layout: fixed;
+		float: none;
+	}
+}
