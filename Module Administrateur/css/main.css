@@ -1,0 +1,423 @@
+/*! HTML5 Boilerplate v4.3.0 | MIT License | http://h5bp.com/ */
+
+html,
+button,
+input,
+select,
+textarea {
+    color: #222;
+}
+a {
+ text-decoration: none;  
+    color:white;
+}
+.menu a{
+ color:black;   
+}
+.menu a:hover{
+ color:gray;   
+}
+
+
+html {
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+}
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+ul{
+    list-style-type: none;
+}
+.firstrow{
+    float:left;
+    width: 25%;
+    display: inline-block;
+}
+.secondrow{
+    float:left;
+    width: 25%;
+    display: inline-block;
+  
+}
+main {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+    font-family: 'Noto Sans', sans-serif;
+}
+header {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.menu {
+    display: inline-block;
+    width: 60%;
+}
+.menu li {
+    display: inline-block;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+.title {
+    font-family: 'Noto Sans', sans-serif;
+    font-weight: 800;
+    font-size: 24px;
+}
+.logo {
+    width: 15%;
+    display: inline-block;
+}
+header {
+    display: inline-block;
+}
+ul {
+    display: inline-block;
+}
+.panier {
+    width: 10%;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 80px;
+}
+.conteneurDescription {
+    display: inline;
+    text-align: center;
+    
+
+}
+.description1 {
+    width: 30%;
+    margin-right: 3%;
+    margin-top: 20px;
+    background-color: gray;
+    display: inline-block;
+    height: 300px;
+}
+.description2 {
+    width: 30%;
+    background-color: gray;
+    height: 300px;
+    display: inline-block;
+     margin-right: 1.5%;
+     margin-left: 1.5%;
+}
+.description3 {
+     margin-left: 3%;
+    width: 30%;
+    background-color: gray;
+    height: 300px;
+    display: inline-block;
+}
+
+.pub{
+    margin-bottom:  20px;
+}
+.innerFooter ul{
+    display: inline-block;
+    height:200px;
+}
+
+.descriptionText{
+    padding-top: 15px;
+    
+}
+.soustitre{
+    margin-top: 280px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 800;
+}
+
+hr.style-five{
+    border: 0;
+    height: 0; /* Firefox... */
+    box-shadow: 0 0 10px 1px black;
+}
+
+hr{
+    margin: 30px;
+    margin-top: 50px;
+}
+.footerLogo{
+    font-weight: 800;
+    font-size: 36px;
+    display: inline-block;
+    margin-right: 50px;
+}
+.footerContact{
+    
+    background-image:url(../img/dark-gray-bg.png);
+    height: 230px; 
+    color:white;
+    width:100%;
+    margin-right: auto;
+    margin-left: auto;
+        font-family: 'Noto Sans', sans-serif;
+    padding-top: 20px;
+padding-bottom: 20px;
+
+}
+.footertitre{
+            font-family: 'Noto Sans', sans-serif;
+text-align: center;
+       font-size: 25px;
+}
+.innerFooter{
+    width:960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.largediv {
+    position:absolute;
+    left:0;
+    right:0;
+    height:160px;
+    background-color:#BDCCA7 ;
+        text-align: center;
+
+}
+.buttonAcheter{
+    font-family: 'Noto Sans', sans-serif;
+
+	-moz-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	box-shadow:inset 0px 1px 0px 0px #f7c5c0;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #fc8d83), color-stop(1, #e4685d));
+	background:-moz-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-webkit-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-o-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:-ms-linear-gradient(top, #fc8d83 5%, #e4685d 100%);
+	background:linear-gradient(to bottom, #fc8d83 5%, #e4685d 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#fc8d83', endColorstr='#e4685d',GradientType=0);
+	background-color:#fc8d83;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #d83526;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:arial;
+	font-size:30px;
+	font-weight:bold;
+	padding:12px 30px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+    margin-top: 45px;
+}
+.buttonAcheter:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #e4685d), color-stop(1, #fc8d83));
+	background:-moz-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-webkit-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-o-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:-ms-linear-gradient(top, #e4685d 5%, #fc8d83 100%);
+	background:linear-gradient(to bottom, #e4685d 5%, #fc8d83 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#e4685d', endColorstr='#fc8d83',GradientType=0);
+	background-color:#e4685d;
+}
+.buttonAcheter:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/* ==========================================================================
+   Media Queries
+   ========================================================================== */
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+       (-o-min-device-pixel-ratio: 5/4),
+       (-webkit-min-device-pixel-ratio: 1.25),
+       (min-resolution: 120dpi) {
+
+}
+
+/* ==========================================================================
+   Helper classes
+   ========================================================================== */
+
+.ir {
+    background-color: transparent;
+    border: 0;
+    overflow: hidden;
+    *text-indent: -9999px;
+}
+
+.ir:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 150%;
+}
+
+.hidden {
+    display: none !important;
+    visibility: hidden;
+}
+.lienfootter{
+    font-size: 13px;   
+}
+.lienfootter:hover{
+    font-size: 13px;
+    color: lightgray;
+}
+.visuallyhidden {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+}
+
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+    clip: auto;
+    height: auto;
+    margin: 0;
+    overflow: visible;
+    position: static;
+    width: auto;
+}
+
+.invisible {
+    visibility: hidden;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+/* ==========================================================================
+   Print styles
+   ========================================================================== */
+
+@media print {
+    * {
+        background: transparent !important;
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline;
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")";
+    }
+
+    abbr[title]:after {
+        content: " (" attr(title) ")";
+    }
+
+    .ir a:after,
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    pre,
+    blockquote {
+        border: 1px solid #999;
+        page-break-inside: avoid;
+    }
+
+    thead {
+        display: table-header-group;
+    }
+
+    tr,
+    img {
+        page-break-inside: avoid;
+    }
+
+    img {
+        max-width: 100% !important;
+    }
+
+    @page {
+        margin: 0.5cm;
+    }
+
+    p,
+    h2,
+    h3 {
+        orphans: 3;
+        widows: 3;
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid;
+    }
+}
