@@ -8,7 +8,7 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<title>ALTER, Montres Intelligents</title>
+	<title>ALTER, Montres Intelligentes Montreal</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="css/bootstrap.min.css">
@@ -44,7 +44,7 @@
 			</div>
 		</div>
 		<div class="col-lg-2 col-md-2 col-sm-2 text-center">
-			<a href="./" title="Return to the homepage" id="logo">
+			<a href="index.html" title="Return to the homepage" id="logo">
 				<img src="img/alter-logo.jpg" alt="Alter" />
 			</a>
 		</div>
@@ -87,20 +87,72 @@
 	<!-- /navigation -->
 	<!-- Section -->
 	<article class="container text-center header_section">
-		<h2>FAQ</h2>
+		<!-- <h2>LE PRODUIT</h2> -->
 	</article>
 	<!-- /Section -->
 	<!-- Contenu -->
-	<article class="container contenu_interne">
-			<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
+	<article class="container inscription_page">
+		<div class="row">
+			<div class="col-lg-2 col-md-2 col-sm-1 col-xs-12">
+				
 			</div>
-			<div class="col-lg-8 col-md-8 col-sm-10 col-xs-10">
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis tincidunt massa vitae neque pretium tincidunt. Aliquam bibendum ultricies viverra. Pellentesque viverra dui id dignissim aliquam. Maecenas sed congue mauris. Integer sed massa suscipit, egestas libero ut, gravida elit. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis congue leo sed odio gravida, vitae volutpat orci tempor. Ut malesuada ante vitae rhoncus blandit. Donec ac ullamcorper purus. Sed et arcu vitae leo fringilla placerat nec et leo. Ut molestie lectus ut vehicula vehicula. Fusce suscipit tortor ac suscipit porta. Donec nec dignissim lectus. Proin et lacus eu metus convallis blandit. Cras ornare nibh dapibus elit tincidunt, in fermentum ante pulvinar.
-				</p>
+			<div class="col-lg-8 col-md-8 col-sm-10col-xs-12 container contenu_interne">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					      <form role="form" id="formulaire">
+        <div class="form-group">
+          <label for="nom">Nom :</label>
+            <input type="text" class="form-control" id="prenom" name="nom" size="10" value="" autofocus placeholder="Nom" pattern="^[a-zA-Z]+$" required/>
+          <label for="nom">Prénom :</label> 
+            <input type="text" class="form-control" id="prenom" name="prenom" value="" placeholder="Prénom" pattern="^[a-zA-Z]+$" required/>
+            <input type="radio" id="femme" name="sexe" required/>
+          <label for="femme" class="sexe">Femme</label>
+            <input type="radio" id="homme" name="sexe" required/>
+          <label for="homme" class="sexe">Homme</label>
+            <input type="radio" id="autre" name="sexe" required/>
+          <label for="autre" class="sexe">Autre</label>
+          <label for="adresse">Adresse :</label>
+            <input type="text"  class="form-control" id="adresse" name="adresse" value="" placeholder="Adresse" pattern="^[a-zA-Z]+$" required />
+          <label for="ville">Ville :</label>   
+           <input type="text"  class="form-control" id="ville" name="ville" value="" placeholder="Ville" pattern="^[a-zA-Z]+$" required />
+          <label for="province">Province :</label>
+            <select id="province">
+                <option value="Ontario">Ontario</option>
+                <option value="Québec">Québec</option>
+                <option value="Alberta">Alberta</option>
+                <option value="Colombie-Britannique">Colombie-Britannique</option>
+                <option value="Saskatchewan">Saskatchewan</option>
+                <option value="Manitoba">Manitoba</option>
+                <option value="Nouveau-Brunswick">Nouveau-Brunswick</option>
+                <option value="Nouvelle-Écosse">Nouvelle-Écosse</option>
+                <option value="Île du Prince Édouard">Île du Prince Édouard</option>
+                <option value="Terre-Neuve">Terre-Neuve</option>
+                <option value="Yukon">Yukon</option>
+                <option value="Territoires du Nord-Ouest">Territoires du Nord-Ouest</option>
+            </select>
+          <label for="code">Code postal :</label>   
+            <input type="text"  class="form-control" id="code" name="code postal" placeholder="Code postal" pattern="" required />
+         
+        </div>
+      </form>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					 <label for="telephone">Téléphone :</label> 
+            <input type="text"  class="form-control" id="telephone" name="telephone" placeholder="Téléphone" pattern="" required />
+          <label for="exampleInputEmail1">Courriel</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Courriel">
+          <label for="exampleInputPassword1">Mot de passe</label>
+            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Mot de passe">
+          <label for="exampleInputPassword2">Confimration du mot de passe</label>
+            <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Mot de passe">
+           <button type="submit" id="bouton" class="btn btn-default">Soumettre</button>
+				</div>
 			</div>
-			<div class="col-lg-2 col-md-2 col-sm-1 col-xs-1">
+			<div class="col-lg-2 col-md-2 col-sm-1 col-xs-12">
+				
 			</div>
+
+		</div>
+		
 	</article>
 	<!-- /Contenu -->
 	<!-- Footer -->
